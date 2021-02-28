@@ -1,0 +1,19 @@
+.header {
+	background-color: #DC0D2D;
+	color: #1A6A9E;
+	height: 10vh;
+	width: 100vw;
+	padding: 10px 30px 10px 30px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.header a {
+	align-self: center;
+}
+
+.header i {
+	color: #232323;
+	font-size: 3rem;
+}

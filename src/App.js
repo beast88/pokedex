@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './Components/Header'
+
+import './Styles/App.css'
 
 function App() {
   return (
    <div>
-    <h1>Pokedex</h1>
+    <Header />
    </div> 
   )
 }
