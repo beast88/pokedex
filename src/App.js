@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from './Components/Header'
 import Search from './Components/Search'
 
 import './Styles/App.css'
 
 function App() {
-  const isInitialMount = useRef(true)
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [pokemon, setPokemon] = useState({})
@@ -34,10 +33,12 @@ function App() {
   return (
    <div>
     <Header />
-    <Search handleSubmit={handleSubmit}
-      handleChange={handleChange}
-      input={input}
-    />
+    <div className="main-container">
+      <Search handleSubmit={handleSubmit}
+        handleChange={handleChange}
+        input={input}
+      />
+    </div>
 
    </div> 
   )
