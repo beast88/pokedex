@@ -1,0 +1,9 @@
+.footer {
+	text-align: center;
+	background-color: #DC0D2D;
+	height: 4vh;
+}
+
+.footer a {
+	text-decoration: none;
+}
