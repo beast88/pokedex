@@ -14,6 +14,7 @@ h1 {
 
 .main-container {
 	width: 100vw;
+	height: 74vh;
 	border-right: 20px solid #DC0D2D;
 	border-left: 20px solid #DC0D2D;
 }

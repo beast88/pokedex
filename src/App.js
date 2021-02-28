@@ -34,11 +34,12 @@ function App() {
   return (
    <div>
     <Header />
+    <Search handleSubmit={handleSubmit}
+      handleChange={handleChange}
+      input={input}
+    />
     <div className="main-container">
-      <Search handleSubmit={handleSubmit}
-        handleChange={handleChange}
-        input={input}
-      />
+      
     </div>
     <Footer />
    </div> 

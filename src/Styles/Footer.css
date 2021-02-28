@@ -4,6 +4,10 @@
 	height: 4vh;
 }
 
+.footer p {
+	padding-top: 5px;
+}
+
 .footer a {
 	text-decoration: none;
 }

@@ -3,6 +3,8 @@
 	display: flex;
 	justify-content: center;
 	border-bottom: 5px solid #DC0D2D;
+	border-right: 20px solid #DC0D2D;
+	border-left: 20px solid #DC0D2D;
 	background-color: #232323;
 }
 
