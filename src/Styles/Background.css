@@ -1,8 +1,85 @@
+@keyframes animate1 {
+	0%{
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes animate2 {
+	0%{
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-200%);
+	}
+}
+
+@keyframes animate3 {
+	0%{
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+@keyframes animate4 {
+	0%{
+		transform: translateX(-200%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
 .background {
+	background-color: #EBF5FB;
 	width: 100%;
+	overflow: hidden;
+	overflow-y: hidden;
+	position: absolute;
+	top: -50%;
+	bottom: 0;
+	z-index: -100;
+}
+
+.row {
+	position: relative;
+	top: -10%;
+	left: -10%;
+	width: 100%;
+	transform: rotate(-30deg);
+	display: flex;
+}
+
+.row div {
+	display: flex;
+
+	animation: animate1 100s linear infinite;
+	animation-delay: -100s;
+}
+
+.row div:nth-child(2) {
+	animation: animate2 100s linear infinite;
+	animation-delay: -50s;
+}
+
+.row:nth-child(even) div {
+	animation: animate3 100s linear infinite;
+	animation-delay: -100s;
+}
+
+.row:nth-child(even) div:nth-child(2) {
+	animation: animate4 100s linear infinite;
+	animation-delay: -50s;
 }
 
 .row img {
-	width: 100px;
-	height: 100px;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin: 15px;
+	user-select: none;
+	opacity: .5;
 }

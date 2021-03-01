@@ -17,4 +17,5 @@ h1 {
 	height: 74vh;
 	border-right: 20px solid #DC0D2D;
 	border-left: 20px solid #DC0D2D;
+	position: relative;
 }
