@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Header from './Components/Header'
 import Search from './Components/Search'
+import Background from './Components/Background'
 import Footer from './Components/Footer'
 
 import './Styles/App.css'
@@ -39,7 +40,7 @@ function App() {
       input={input}
     />
     <div className="main-container">
-      
+      <Background />      
     </div>
     <Footer />
    </div> 
