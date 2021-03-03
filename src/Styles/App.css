@@ -23,3 +23,7 @@ h2 {
 	border-left: 20px solid #DC0D2D;
 	position: relative;
 }
+
+.hidden {
+	display: none;
+}

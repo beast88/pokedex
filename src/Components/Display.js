@@ -9,8 +9,10 @@ const Display = (props) => {
 
 	const name = props.info.name != null ? props.info.name.toUpperCase() : ''
 
+	const hidden = props.hidden === true ? 'main-display hidden' : 'main-display'
+
 	return(
-		<div className="main-display">
+		<div className={hidden} >
 			<h2>{name}</h2>
 			<Stats />
 			<Picture />
