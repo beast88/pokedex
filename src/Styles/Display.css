@@ -23,6 +23,12 @@
 	border: 1px solid black;
 }
 
+.picture-container img {
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+
 .stats-container {
 	flex: 1 1;
 	border: 1px solid black;

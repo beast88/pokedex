@@ -19,6 +19,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
+    setPokemon(null)
     fetch(`https://pokeapi.co/api/v2/pokemon/${input.toLowerCase()}`)
       .then(response => response.json())
       .then(data => {
