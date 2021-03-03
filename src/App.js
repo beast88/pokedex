@@ -46,7 +46,9 @@ function App() {
     />
     <div className="main-container">
       <Background />
-      <Display info={pokemon} hidden={hidden} />      
+
+      <Display info={pokemon} hidden={hidden} />
+            
     </div>
     <Footer />
    </div> 
