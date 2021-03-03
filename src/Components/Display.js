@@ -7,12 +7,10 @@ import '../Styles/Display.css'
 const Display = (props) => {
 	// console.log(props.info)
 
-	const name = props.info.name != null ? props.info.name.toUpperCase() : ''
-
-	const hidden = props.hidden === true ? 'main-display hidden' : 'main-display'
+	const name = props.info.name.toUpperCase()
 
 	return(
-		<div className={hidden} >
+		<div className="main-display" >
 			<h2>{name}</h2>
 			<Stats />
 			<Picture images={props.info.sprites}/>

@@ -10,8 +10,7 @@ import './Styles/App.css'
 function App() {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
-  const [pokemon, setPokemon] = useState({})
-  const [hidden, setHidden] = useState(true)
+  const [pokemon, setPokemon] = useState(null)
 
   const handleChange = (e) => {
     setInput(e.target.value)
@@ -20,19 +19,16 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
-    setHidden(true)
     fetch(`https://pokeapi.co/api/v2/pokemon/${input.toLowerCase()}`)
       .then(response => response.json())
       .then(data => {
         setPokemon(data)
         setInput('')
         setLoading(false)
-        setHidden(false)
       })
       .catch(error => {
         setInput('')
         setLoading(false)
-        setHidden(true)
         console.log('Something went wrong')
       })
   }
@@ -47,8 +43,8 @@ function App() {
     <div className="main-container">
       <Background />
 
-      <Display info={pokemon} hidden={hidden} />
-            
+      {pokemon === null ? '' : <Display info={pokemon} />}
+
     </div>
     <Footer />
    </div> 
