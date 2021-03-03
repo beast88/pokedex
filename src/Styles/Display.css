@@ -1,0 +1,29 @@
+.main-display {
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.main-display>* {
+	width: calc(50% - 14px);
+	margin: 7px;
+	background-color: #EBF5FB;
+}
+
+.main-display h2 {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.picture-container {
+	flex: 1 1 100%;
+	border: 1px solid black;
+}
+
+.stats-container {
+	flex: 1 1;
+	border: 1px solid black;
+}

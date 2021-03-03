@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Search from './Components/Search'
 import Background from './Components/Background'
 import Footer from './Components/Footer'
+import Display from './Components/Display'
 
 import './Styles/App.css'
 
@@ -40,7 +41,8 @@ function App() {
       input={input}
     />
     <div className="main-container">
-      <Background />      
+      <Background />
+      <Display info={pokemon}/>      
     </div>
     <Footer />
    </div> 
