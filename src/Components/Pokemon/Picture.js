@@ -14,10 +14,15 @@ const Picture = (props) => {
 		pic === front ? setPic(back) : setPic(front)
 	}
 
+	console.log(props.types)
+
 	return(
 		<div className="picture-container">
 			<img src={pic} alt="sprite" />
 			<button onClick={handleClick} >Switch</button>
+
+			<div className="type-container">
+			</div>
 		</div>
 	)
 }
