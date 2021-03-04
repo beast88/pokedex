@@ -24,7 +24,8 @@ const Picture = (props) => {
 				{
 					props.types.map(type => {
 						console.log(type.type.name)
-						return null
+						const image = types.find(x => x.name === type.type.name)
+						return <img src={image.image} alt={image.name}/>
 					})
 				}
 			</div>

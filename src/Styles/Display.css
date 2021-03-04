@@ -34,6 +34,13 @@
 	font-family: inherit;
 }
 
+.type-container {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	margin: 10px auto 0 auto;
+}
+
 .stats-container {
 	flex: 1 1;
 	border: 1px solid black;
