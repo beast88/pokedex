@@ -26,3 +26,9 @@
 	font: inherit;
 	width: 200px;
 }
+
+@media screen and (max-width: 835px) {
+	.search-container form {
+		width: 90%;
+	}	
+}

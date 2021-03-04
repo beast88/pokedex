@@ -11,18 +11,16 @@
 	width: calc(50% - 14px);
 	margin: 7px;
 	background-color: #EBF5FB;
+	border: 5px solid black;
+	border-radius: 5px;
 }
 
 .main-display h2 {
 	padding: 10px;
-	border: 5px solid black;
-	border-radius: 5px;
 }
 
 .picture-container {
 	flex: 1 1 100%;
-	border: 5px solid black;
-	border-radius: 5px;
 	text-align: center;
 	padding-top: 30px;
 }
@@ -64,8 +62,6 @@
 
 .stats-container {
 	flex: 1 1;
-	border: 5px solid black;
-	border-radius: 5px;
 	padding: 20px;
 }
 
@@ -74,4 +70,37 @@
 	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 835px) {
+	.main-display {
+		flex-wrap: nowrap;
+		overflow-y: auto;
+	}
+
+	.main-display>* {
+		width: 95%;
+	}
+
+	.main-display h2 {
+		width: 95%;
+		order: 0;
+	}
+
+	.picture-container {
+		order: 1;
+		padding-top: 10px;
+	}
+
+	.picture-container img {
+		width: 70%;
+	}
+
+	.picture-container button {
+		padding-top: 0;
+	}
+
+	.stats-container {
+		order: 2;
+	}
 }

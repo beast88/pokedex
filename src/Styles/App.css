@@ -31,3 +31,9 @@ h3 {
 .hidden {
 	display: none;
 }
+
+@media screen and (max-width: 835px) {
+	h2 {
+		font-size: 2.6rem;
+	}	
+}
