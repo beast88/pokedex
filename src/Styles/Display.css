@@ -57,13 +57,21 @@
 	justify-content: space-around;
 }
 
-.height p, .weight p {
+.height p, .weight p, .stats-grid p {
 	font-size: 1.2rem;
-	padding: 5px 0 5px 0;
+	padding: 10px 0 10px 0;
 }
 
 .stats-container {
 	flex: 1 1;
 	border: 5px solid black;
 	border-radius: 5px;
+	padding: 20px;
+}
+
+.stats-container .stats-grid {
+	width: 100%;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }

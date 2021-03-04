@@ -20,7 +20,7 @@ const Picture = (props) => {
 	return(
 		<div className="picture-container">
 
-			<img src={pic} alt="sprite" />
+			<img src={pic} alt="Sprite Unavailable" />
 			<button onClick={handleClick} >Switch</button>
 
 			<div className="type-container">

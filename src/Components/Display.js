@@ -13,7 +13,9 @@ const Display = (props) => {
 	return(
 		<div className="main-display" >
 			<h2>{props.info.id}: {name}</h2>
-			<Stats />
+			<Stats
+				stats={props.info.stats} 
+			/>
 
 			<Picture 
 				images={props.info.sprites}
