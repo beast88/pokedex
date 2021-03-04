@@ -15,13 +15,16 @@
 
 .main-display h2 {
 	padding: 10px;
-	border: 4px solid black;
+	border: 5px solid black;
+	border-radius: 5px;
 }
 
 .picture-container {
 	flex: 1 1 100%;
-	border: 1px solid black;
+	border: 5px solid black;
+	border-radius: 5px;
 	text-align: center;
+	padding-top: 30px;
 }
 
 .picture-container img {
@@ -61,5 +64,6 @@
 
 .stats-container {
 	flex: 1 1;
-	border: 1px solid black;
+	border: 5px solid black;
+	border-radius: 5px;
 }
