@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import types from '../../Assets/types'
 
 const Picture = (props) => {
 	const front = props.images.front_default
@@ -14,14 +15,18 @@ const Picture = (props) => {
 		pic === front ? setPic(back) : setPic(front)
 	}
 
-	console.log(props.types)
-
 	return(
 		<div className="picture-container">
 			<img src={pic} alt="sprite" />
 			<button onClick={handleClick} >Switch</button>
 
 			<div className="type-container">
+				{
+					props.types.map(type => {
+						console.log(type.type.name)
+						return null
+					})
+				}
 			</div>
 		</div>
 	)
