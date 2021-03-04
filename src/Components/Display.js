@@ -18,6 +18,8 @@ const Display = (props) => {
 			<Picture 
 				images={props.info.sprites}
 				types={props.info.types}
+				weight={props.info.weight}
+				height={props.info.height}
 			/>
 		</div>
 	)
