@@ -1,4 +1,4 @@
-.loading-container {
+.loading-container, .error-container {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -6,7 +6,7 @@
 	align-items: center;
 }
 
-.loading-container h2 {
+.loading-container h2, .error-container h2 {
 	padding: 20px;
 	background-color: #EBF5FB;
 	border: 5px black solid;

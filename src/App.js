@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from './Components/Header'
 import Search from './Components/Search'
 import Loading from './Components/Loading'
+import APIError from './Components/Error'
 import Background from './Components/Background'
 import Footer from './Components/Footer'
 import Display from './Components/Display'
@@ -12,6 +13,7 @@ function App() {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [pokemon, setPokemon] = useState(null)
+  const [error, setError] = useState(false)
 
   const handleChange = (e) => {
     setInput(e.target.value)
@@ -21,6 +23,7 @@ function App() {
     e.preventDefault()
     setLoading(true)
     setPokemon(null)
+    setError(false)
     fetch(`https://pokeapi.co/api/v2/pokemon/${input.toLowerCase()}`)
       .then(response => response.json())
       .then(data => {
@@ -31,6 +34,7 @@ function App() {
       .catch(error => {
         setInput('')
         setLoading(false)
+        setError(true)
         console.log('Something went wrong')
       })
   }
@@ -44,7 +48,8 @@ function App() {
     />
     <div className="main-container">
       <Background />
-      <Loading isLoading={loading}/>
+      <Loading isLoading={loading} />
+      <APIError error={error} />
 
       {pokemon === null ? '' : <Display info={pokemon} />}
 
