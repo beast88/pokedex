@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from './Components/Header'
 import Search from './Components/Search'
+import Loading from './Components/Loading'
 import Background from './Components/Background'
 import Footer from './Components/Footer'
 import Display from './Components/Display'
@@ -43,6 +44,7 @@ function App() {
     />
     <div className="main-container">
       <Background />
+      <Loading isLoading={loading}/>
 
       {pokemon === null ? '' : <Display info={pokemon} />}
 

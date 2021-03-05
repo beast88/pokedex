@@ -5,9 +5,6 @@ import Stats from './Pokemon/Stats'
 import '../Styles/Display.css'
 
 const Display = (props) => {
-	//Console log here... remember to take it out
-	console.log(props.info)
-
 	const name = props.info.name.toUpperCase()
 
 	return(
