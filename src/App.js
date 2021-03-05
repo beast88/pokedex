@@ -47,7 +47,7 @@ function App() {
       input={input}
     />
     <div className="main-container">
-      <Background />
+      // <Background />
       <Loading isLoading={loading} />
       <APIError error={error} />
 
