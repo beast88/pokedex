@@ -553,6 +553,216 @@ const Background = () => {
 					<img src={pokeball2} alt="" />
 				</div>
 			</div>
+						<div className="row">
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+			</div>
+						<div className="row">
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+			</div>
+						<div className="row">
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+			</div>
+						<div className="row">
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+			</div>
+						<div className="row">
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+				<div>
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+					<img src={pokeball1} alt="" />
+					<img src={pokeball2} alt="" />
+				</div>
+			</div>
 		</div>
 	)
 }
